@@ -1,0 +1,4 @@
+apiVersion: apps/v1
+name: backend
+version: 1.0.0
+description: this chart is for mysql creation for expense
