@@ -21,7 +21,7 @@ metadata:
     project: expense
     tier: api
 spec:
-  replicas: {{ .Values.deployment.}}
+  replicas: {{ .Values.deployment.rereplicaset}}
   selector:
     matchLabels:
       app: backend
